@@ -1,0 +1,369 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://s1.1zoom.me/big0/622/356341-admin.jpg);
+    
+    
+}
+
+.margen-total{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.portada{
+    height: auto;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.navbar{
+   position: fixed;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.lista-navegacion{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+
+}
+
+.lista-navegacion li {
+    margin: 20px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 3em;
+}
+
+.lista-navegacion li:hover{
+    color: rgba(255, 0, 0, 0.507);
+    cursor: pointer;
+
+}
+
+.lista-navegacion li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.noticias-h2{
+    
+    margin-left: 40%;
+    width: 100%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.contenedor-noticias{
+    margin-left: 15px;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    max-width: 100%;
+    background-image: url("backround.jpg");
+}
+
+.noticia1{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+    padding: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.noticia2{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+    padding: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.noticia3{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+    padding: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.bandash2{
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+.bandas{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0px;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/370/963/678/background-black-plain-wallpaper-preview.jpg);
+    font-family: 'Tajawal', sans-serif;
+    color: whitesmoke;
+
+}
+
+.card-banda{
+    border-radius: 5px;
+    width: 15%;
+    height: 500px;
+    -webkit-box-shadow: 6px 4px 15px -1px rgba(158,239,250,1);
+    -moz-box-shadow: 6px 4px 15px -1px rgba(158,239,250,1);
+    box-shadow: 6px 4px 15px -1px rgba(158,239,250,1);
+    
+  
+
+
+}
+
+.card-banda img{
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.card-banda h3{
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.card-banda p{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.seccion-boletos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-boletos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.boleto1{
+
+    width: 40%;
+    background-color: rgb(119, 190, 207);
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Tajawal', sans-serif;
+    -webkit-box-shadow: 10px 9px 35px 19px rgba(158,239,250,1);
+    -moz-box-shadow: 10px 9px 35px 19px rgba(158,239,250,1);
+    box-shadow: 10px 9px 35px 19px rgba(158,239,250,1);
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 2px solid #000000;
+    animation-name: respiracion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+}
+
+
+
+.boleto2{
+
+    width: 40%;
+    background-color: rgba(255, 0, 0, 0.671);
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Tajawal', sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 2px solid #000000;
+}
+
+.boleto2:hover{
+    cursor: no-drop;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url(https://st.depositphotos.com/1522158/4296/i/950/depositphotos_42968145-stock-photo-white-paper-texture.jpg);
+    -webkit-box-shadow: 10px 9px 35px 19px rgb(0, 3, 3);
+    -moz-box-shadow: 10px 9px 35px 19px rgb(0, 0, 0);
+    box-shadow: 10px 9px 35px 19px rgb(0, 0, 0);
+
+}
+
+.card-contacto{
+    width: 40%;
+    border-radius: 5px;
+    padding: 30px;
+    -webkit-box-shadow: 6px 4px 15px -1px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 6px 4px 15px -1px rgba(0, 0, 0, 0.8);
+    box-shadow: 6px 4px 15px -1px rgba(0, 0, 0, 0.8);
+
+}
+
+.card-contacto h2{
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.container-input{
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-input input{
+    width: 80%;
+}
+
+.container-input textarea{
+    width: 80%;
+
+}
+
+.container-btn{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-icons i{
+    color: white;
+    font-size: 2em;
+    margin: 0px 10px;
+
+}
+
+.icon-facebook:hover{
+    color: #3b5998;
+   
+}
+
+.icon-twitter:hover{
+    color: #1da1f2;
+    
+}
+
+.icon-instagram:hover{
+    color: #c13584;
+    
+
+}
+
+.icon-spotify:hover{
+    color: #1db954;
+
+}
+
+.icon-youtube:hover{
+    color: #ff0000;
+
+}
+
+
+
+.titulo-boleto{
+    border: 4px solid #000000;
+    font-size: 3em;
+    width: 100%;
+    text-shadow: 3px 2px 8px rgba(0,0,0,0.63);
+    padding: 5px;
+
+    
+}
+
+.precio-boleto{
+    font-size: 2em;
+    text-shadow: 3px 2px 2px rgba(0,0,0,0.6);
+    text-decoration: underline;
+
+
+}
+
+.p-boleto{
+    font-size: 1.5em;
+
+}
+
+.boton-boleto{
+    width: 200px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: RGB(47,178,85);
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border: 2px solid #000000;
+    transition-property: all;
+    transition-duration:  1s;
+    transition-timing-function: ease-in;
+
+}
+
+.boton-boleto:hover{
+    cursor: pointer;
+    background-color: RGBA(47,191,87,0.67)
+
+}
+
+i{
+    font-size: 2em;
+    padding: 5px;
+}
+
+.copy{
+    color: whitesmoke;
+}
+
+
+@media (min-width: 768px) and (max-widht: 1024px) {
+    .bandas{
+        width: 60%;
+    }
+    
+}
+
+@media (min-width: 300px) and (max-widht: 767px) {
+    .bandas{
+        width: 80%;
+    }
+    
+}

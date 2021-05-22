@@ -1,0 +1,17 @@
+@keyframes respiracion {
+  0% {
+    -webkit-box-shadow: 10px 9px 35px 19px rgba(158,239,250,1);
+    -moz-box-shadow: 10px 9px 35px 19px rgba(158,239,250,1);
+    box-shadow: 10px 9px 35px 19px rgba(158,239,250,1);
+  }
+  50% {
+    -webkit-box-shadow: 10px 9px 35px 19px rgb(19, 165, 97);
+    -moz-box-shadow: 10px 9px 35px 19px rgb(19, 165, 97);
+    box-shadow: 10px 9px 35px 19px rgb(19, 165, 97);
+  }
+  100% {
+    -webkit-box-shadow: 10px 9px 35px 19px rgba(158,239,250,1);
+    -moz-box-shadow: 10px 9px 35px 19px rgba(158,239,250,1);
+    box-shadow: 10px 9px 35px 19px rgba(158,239,250,1);
+  }
+}
